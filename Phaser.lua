@@ -56,7 +56,7 @@ local function ShowClusterLine(cluster, playersList)
   local alliance = cluster.alliance / 1000
   local horde = cluster.horde / 1000
   local color = typeColors[cluster.type]
-  local result = string.format("|cFF%s%s|r: [%s]  [A: %dk / H: %dk] (%s)", color, cluster.type, realms, alliance, horde, players)
+  local result = string.format("|cFF%s%s|r: [%s]  [|cFF0070DEA: %dk|r / |cFFC41F3B: %dk|r] (%s)", color, cluster.type, realms, alliance, horde, players)
   print(result)
 end
 
