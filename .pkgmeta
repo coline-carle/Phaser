@@ -1,0 +1,12 @@
+package-as: phaser
+
+ignore:
+  - README.md
+
+externals:
+    Libs/LibRealmInfo:
+        url: https://repos.curseforge.com/wow/librealminfo
+        tag: latest
+    Libs/LibStub:
+        url: https://repos.wowace.com/wow/libstub/trunk
+        tag: 1.0

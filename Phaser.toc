@@ -1,0 +1,9 @@
+## Interface: 70300
+## Title: Phaser
+## Notes: Phaser helper for seed raids
+## Version: 1.0
+## OptionalDeps: LibRealmInfo
+## X-Embeds: LibRealmInfo
+
+embeds.xml
+Phaser.lua
