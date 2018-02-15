@@ -9,7 +9,6 @@ local playerFaction = nil
 local oppositeFaction = nil
 
 local function Phaser_OnEvent(self, event, ...)
-  print("Phaser_OnEvent", event)
   if event == "PLAYER_ENTERING_WORLD" then
     local opposites = {horde = "alliance", alliance = "horde"}
     playerFaction = UnitFactionGroup("player")
