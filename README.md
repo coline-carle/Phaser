@@ -1,7 +1,7 @@
 # Phaser
 ## About
 
-This is a simple addon for see raid intended to help the raid leader to phase / choose which realm to be phased
+This is an addon intended to help the raid leader to phase / choose which realm to be phased
 
 it display the first 5 PvP realm with the lowest population, player side faction
 2 PvE realm rated with the following formula |player side faction population| + |opposite player side faction population|
